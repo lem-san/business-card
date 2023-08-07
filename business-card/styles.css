@@ -1,0 +1,78 @@
+body {
+    margin: 20px;
+    font-family: 'Lucida Console', monospace;
+    letter-spacing: -1px;
+}
+
+img {
+    position: relative;
+}
+
+.avatar1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    opacity: 100;
+    transition-duration: 0.3s;
+    position: absolute;
+}
+
+.avatar2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.avatar2:hover {
+    opacity: 100;
+    transition-duration: 0.3s;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #e9c46a;
+    color: #264653;
+    border-bottom: 6px solid #2a9d8f;
+    border-right: 6px solid #2a9d8f;
+    border-radius: 20px;    
+}
+
+.card-info1 {
+    padding-left: 20px;
+}
+
+.card-info2 {
+    padding-left: 20px;
+    display: none;
+}
+
+.card:hover .card-info1{
+    display: none;
+}
+
+.card:hover .card-info2 {
+    display: inline;
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
